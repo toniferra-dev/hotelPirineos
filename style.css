@@ -15,18 +15,17 @@ body{
 
     & main {
         
+        color: gray;
         & h5{
             font-size: 18px;
         }
         & h1{
             font-size: 32px;
             font-weight: 900;
-            color: gray;
 
             &:hover{
-                color: black;
-                font-size: 100px;
-                transition: 1s;
+                color: rgb(157, 0, 0);
+                cursor: pointer;
             }
         }
     }
